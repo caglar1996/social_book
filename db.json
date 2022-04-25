@@ -1,0 +1,17 @@
+{
+    "users": [{
+            "userName": "caca",
+            "fullName": "caca",
+            "password": "682d0c21835b9cb5cbdbb71076c7846dccd42b44",
+            "id": 1
+        },
+        {
+            "userName": "aysu",
+            "fullName": "aysu",
+            "password": "682d0c21835b9cb5cbdbb71076c7846dccd42b44",
+            "id": 2
+        }
+    ],
+    "bookmarks": [],
+    "categories": []
+}
