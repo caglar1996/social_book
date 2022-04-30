@@ -2,32 +2,51 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import store from "@/store";
 
 const routes = [{
-    name: "LoginView",
-    path: "/login",
-    component: () =>
-        import("@/views/LoginView")
-}, {
-    name: "HomeView",
-    path: "/",
-    component: () =>
-        import("@/views/HomeView.vue")
-}, {
-    name: "RegisterView",
-    path: "/register",
-    component: () =>
-        import("@/views/RegisterView")
-}, {
-    name: "NewBookMarkiView",
-    path: "/new",
-    component: () =>
-        import("@/views/NewBookMarkView.vue")
-},
-{
-    name: "FavoritesView",
-    path: "/favorites",
-    component: () =>
-        import("@/views/FavoritesView.vue")
-}];
+        name: "LoginView",
+        path: "/login",
+        component: () =>
+            import ("@/views/LoginView")
+    }, {
+        name: "HomeView",
+        path: "/",
+        component: () =>
+            import ("@/views/HomeView.vue")
+    }, {
+        name: "RegisterView",
+        path: "/register",
+        component: () =>
+            import ("@/views/RegisterView")
+    }, {
+        name: "NewBookMarkiView",
+        path: "/new",
+        component: () =>
+            import ("@/views/NewBookMarkView.vue")
+    },
+    {
+        name: "Favorites",
+        path: "/favorites",
+        meta: {
+            componentName: "appBookMarkList" // hazır olan componente, baska bşr değişken ile veri gönderere filtreleme
+        },
+        component: () =>
+            import ("@/views/AccountView.vue")
+    },
+    {
+        name: "Settings",
+        path: "/settings",
+        component: () =>
+            import ("@/views/AccountView.vue")
+    },
+    {
+        name: "Likes",
+        path: "/likes",
+        meta: {
+            componentName: "appBookMarkList"
+        },
+        component: () =>
+            import ("@/views/AccountView.vue")
+    }
+];
 
 const router = createRouter({
     routes,

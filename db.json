@@ -1,119 +1,115 @@
 {
-  "users": [
-    {
-      "userName": "caca",
-      "fullName": "caca",
-      "password": "682d0c21835b9cb5cbdbb71076c7846dccd42b44",
-      "id": 1,
-      "likes": [
-        1,
-        2,
-        3
-      ],
-      "bookmarks": [
-        1,
-        2,
-        3
-      ]
-    },
-    {
-      "userName": "aysu",
-      "fullName": "aysu",
-      "password": "682d0c21835b9cb5cbdbb71076c7846dccd42b44",
-      "id": 2,
-      "likes": [],
-      "bookmarks": []
-    }
-  ],
-  "bookmarks": [
-    {
-      "title": "sadasd",
-      "url": "asdasd",
-      "categoryId": 3,
-      "description": "23123123",
-      "userId": 1,
-      "created_at": "2022-04-29T08:39:25.448Z",
-      "id": 1
-    },
-    {
-      "title": "Vue Doc",
-      "url": "https://vuejs.org/",
-      "categoryId": 1,
-      "description": "Vue Dokumantasyonu",
-      "userId": 1,
-      "created_at": "2022-04-29T08:49:33.430Z",
-      "id": 2
-    },
-    {
-      "title": "Vue Dokümantasyonu",
-      "url": "https://vuejs.org/",
-      "categoryId": 2,
-      "description": "Vue açıklama",
-      "userId": 1,
-      "created_at": "2022-04-29T08:50:43.511Z",
-      "id": 3
-    },
-    {
-      "title": "React Js Dok",
-      "url": "https://tr.reactjs.org/",
-      "categoryId": 2,
-      "description": "Reacts dok",
-      "userId": 1,
-      "created_at": "2022-04-29T08:51:17.012Z",
-      "id": 4
-    },
-    {
-      "title": "Caglar",
-      "url": "c",
-      "categoryId": 4,
-      "description": "2",
-      "userId": 1,
-      "created_at": "2022-04-29T08:53:45.893Z",
-      "id": 5
-    },
-    {
-      "title": "aysu",
-      "url": "123",
-      "categoryId": 4,
-      "description": "asdasd",
-      "userId": 1,
-      "created_at": "2022-04-29T09:09:58.945Z",
-      "id": 6
-    },
-    {
-      "title": "watsons",
-      "url": "https://www.watsons.com.tr/c/buyuk-bayram-firsatlari-3279?gclid=Cj0KCQjwma6TBhDIARIsAOKuANzg87EaWlQI8Ouqt0ZTnA8eWsH9nppsSNqV5cudNU2E1FeVBKf0JpsaArlOEALw_wcB",
-      "categoryId": 6,
-      "description": "Makyaj",
-      "userId": 2,
-      "created_at": "2022-04-29T10:09:06.004Z",
-      "id": 7
-    }
-  ],
-  "categories": [
-    {
-      "id": 1,
-      "name": "Vue.js"
-    },
-    {
-      "id": 2,
-      "name": "React.js"
-    },
-    {
-      "id": 3,
-      "name": "Frontend.js"
-    },
-    {
-      "id": 4,
-      "name": "Backend.js"
-    },
-    {
-      "id": 5,
-      "name": "Cloud.js"
-    },
-    {
-      "id": 6,
-      "name": "Sosyal Yaşam.js"
-    }
-  ]
+    "users": [{
+            "userName": "caca",
+            "fullName": "caca",
+            "password": "682d0c21835b9cb5cbdbb71076c7846dccd42b44",
+            "id": 1,
+            "likes": [
+                1,
+                2,
+                3
+            ],
+            "bookmarks": [
+                1,
+                2
+            ]
+        },
+        {
+            "userName": "aysu",
+            "fullName": "aysu",
+            "password": "682d0c21835b9cb5cbdbb71076c7846dccd42b44",
+            "id": 2,
+            "likes": [],
+            "bookmarks": []
+        }
+    ],
+    "bookmarks": [{
+            "title": "sadasd",
+            "url": "asdasd",
+            "categoryId": 3,
+            "description": "23123123",
+            "userId": 1,
+            "created_at": "2022-04-29T08:39:25.448Z",
+            "id": 1
+        },
+        {
+            "title": "Vue Doc",
+            "url": "https://vuejs.org/",
+            "categoryId": 1,
+            "description": "Vue Dokumantasyonu",
+            "userId": 1,
+            "created_at": "2022-04-29T08:49:33.430Z",
+            "id": 2
+        },
+        {
+            "title": "Vue Dokümantasyonu",
+            "url": "https://vuejs.org/",
+            "categoryId": 2,
+            "description": "Vue açıklama",
+            "userId": 1,
+            "created_at": "2022-04-29T08:50:43.511Z",
+            "id": 3
+        },
+        {
+            "title": "React Js Dok",
+            "url": "https://tr.reactjs.org/",
+            "categoryId": 2,
+            "description": "Reacts dok",
+            "userId": 1,
+            "created_at": "2022-04-29T08:51:17.012Z",
+            "id": 4
+        },
+        {
+            "title": "Caglar",
+            "url": "c",
+            "categoryId": 4,
+            "description": "2",
+            "userId": 1,
+            "created_at": "2022-04-29T08:53:45.893Z",
+            "id": 5
+        },
+        {
+            "title": "aysu",
+            "url": "123",
+            "categoryId": 4,
+            "description": "asdasd",
+            "userId": 1,
+            "created_at": "2022-04-29T09:09:58.945Z",
+            "id": 6
+        },
+        {
+            "title": "watsons",
+            "url": "https://www.watsons.com.tr/c/buyuk-bayram-firsatlari-3279?gclid=Cj0KCQjwma6TBhDIARIsAOKuANzg87EaWlQI8Ouqt0ZTnA8eWsH9nppsSNqV5cudNU2E1FeVBKf0JpsaArlOEALw_wcB",
+            "categoryId": 6,
+            "description": "Makyaj",
+            "userId": 2,
+            "created_at": "2022-04-29T10:09:06.004Z",
+            "id": 7
+        }
+    ],
+    "categories": [{
+            "id": 1,
+            "name": "Vue.js"
+        },
+        {
+            "id": 2,
+            "name": "React.js"
+        },
+        {
+            "id": 3,
+            "name": "Frontend.js"
+        },
+        {
+            "id": 4,
+            "name": "Backend.js"
+        },
+        {
+            "id": 5,
+            "name": "Cloud.js"
+        },
+        {
+            "id": 6,
+            "name": "Sosyal Yaşam.js"
+        }
+    ]
 }

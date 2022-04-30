@@ -14,4 +14,5 @@ app.use(router);
 app.use(store);
 app.config.devtools = true;
 app.config.globalProperties.$appAxios = appAxios;
+app.config.globalProperties.$l = console.log;
 app.mount('#app');
