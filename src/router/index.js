@@ -21,6 +21,12 @@ const routes = [{
     path: "/new",
     component: () =>
         import("@/views/NewBookMarkView.vue")
+},
+{
+    name: "FavoritesView",
+    path: "/favorites",
+    component: () =>
+        import("@/views/FavoritesView.vue")
 }];
 
 const router = createRouter({
@@ -37,8 +43,8 @@ router.beforeEach((to, from, next) => {
     if (authRequiredRoutes.indexOf(to.name) > -1) {
         if (_isAuthentication) next();
         else next({ name: "LoginView" });
-    }
-    next();
+    } else
+        next();
 });
 
 export default router;

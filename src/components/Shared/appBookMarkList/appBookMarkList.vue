@@ -5,7 +5,7 @@ Application seviyesindeki componentlerin basına app baslanır
 <template>
   <div>
     <div class="p-2 grid grid-cols-8 gap-4">
-      <bookMarkListItem v-for="i in 10" :key="i" />
+      <bookMarkListItem v-for="item in items" :key="item.id" :item="item" />
     </div>
   </div>
 </template>
@@ -13,6 +13,13 @@ Application seviyesindeki componentlerin basına app baslanır
 <script>
 import bookMarkListItem from "./appBookMartListItem.vue";
 export default {
+  props: {
+    items: {
+      type: Array,
+      required: true,
+      default: () => [],
+    },
+  },
   components: {
     bookMarkListItem,
   },
